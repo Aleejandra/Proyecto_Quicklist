@@ -1,0 +1,6 @@
+# view AndroidManifest.xml #generated:8
+-keep class CerciberProyects.QuickList.MainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:16
+-keep class CerciberProyects.QuickList.Pantalla_Principal { <init>(...); }
+

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/fondo"
+    >
+    
+<TextView  
+    android:id="@+id/Titulo" 
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:text="Quick List" 
+    android:textStyle="bold"
+    android:layout_marginLeft="60px" 
+    android:layout_marginTop="50px" 
+    
+    
+    />
+
+<EditText
+        android:id="@+id/EditText1"
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content" 
+        android:hint="Usuario"
+        android:textStyle="bold"
+        android:layout_marginLeft="60px" 
+        android:layout_marginTop="10px" 
+    />
+
+<EditText
+        android:id="@+id/EditText2"
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:hint="Contraseña" 
+        android:textStyle="bold"
+        android:layout_marginLeft="60px" 
+        android:layout_marginTop="0px" 
+    />
+
+<Spinner
+        android:id="@+id/Spinner1"
+        android:layout_width="200px"
+        android:layout_height="40px"
+        android:layout_marginLeft="60px" 
+        android:layout_marginTop="0px" 
+    />
+
+<Button
+
+        android:id="@+id/Boton1"
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_marginLeft="20px" 
+        android:layout_marginTop="40px" 
+        android:text="Ingresar"
+
+    />
+
+<Button
+
+        android:id="@+id/Boton2"
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_marginLeft="160px" 
+        android:layout_marginTop="-51px" 
+        android:text="Registrarse"
+
+    />
+
+
+</LinearLayout>
+
